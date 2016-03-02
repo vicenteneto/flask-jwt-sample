@@ -1,6 +1,0 @@
-language: python
-services:
- - mongodb
-install:
- - pip install -r requirements.txt
-# script: python sample_tests.py
