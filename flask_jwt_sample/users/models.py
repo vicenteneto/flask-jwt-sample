@@ -1,7 +1,4 @@
-from flask.ext.login import UserMixin
-
-
-class User(UserMixin):
+class User(object):
     def __init__(self, name, email, username, password):
         self.id = username
         self.name = name

@@ -1,4 +1,4 @@
-from flask_login_sample.util.db_util import connect, get, get_one, get_by_id, save
+from flask_jwt_sample.util.db_util import connect, get, get_one, get_by_id, save
 
 db = connect()
 user_collection = db.users

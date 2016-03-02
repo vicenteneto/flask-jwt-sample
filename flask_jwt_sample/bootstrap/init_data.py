@@ -1,4 +1,4 @@
-from flask_login_sample.users import services
+from flask_jwt_sample.users import services
 
 
 def user_1():
