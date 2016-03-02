@@ -8,7 +8,7 @@ def connect():
     """
     :return: the mongo database this project.
     """
-    return mongo_client.flask_login_sample
+    return mongo_client['flask_jwt_sample']
 
 
 def get(collection, data_filter):
